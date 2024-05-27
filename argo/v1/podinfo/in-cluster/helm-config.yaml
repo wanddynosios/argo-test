@@ -1,0 +1,8 @@
+app:
+  metadata:
+    name: podinfo
+  spec:
+    source:
+      repoURL: 'ghcr.io/stefanprodan/charts'
+      chart: podinfo
+      targetRevision: 6.6.3
